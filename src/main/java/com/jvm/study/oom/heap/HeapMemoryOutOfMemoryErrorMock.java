@@ -13,6 +13,7 @@ public class HeapMemoryOutOfMemoryErrorMock {
     /**
      * 内存申请的太大了,超过了启动限制,最后跑出  java.lang.OutOfMemoryError: Java heap space
      */
+
     public static void main(String[] args) {
         List<Byte[]> list = new ArrayList<Byte[]>();
         for (int i = 0; i < 10000; i++) {
