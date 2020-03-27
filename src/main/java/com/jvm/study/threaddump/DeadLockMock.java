@@ -1,4 +1,4 @@
-package com.jvm.study.threaddump.deadlock;
+package com.jvm.study.threaddump;
 
 /**
  * 模拟线程死锁的状态
